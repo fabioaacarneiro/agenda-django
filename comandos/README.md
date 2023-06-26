@@ -1,4 +1,4 @@
-Iniciando o projeto Django
+### Iniciando o projeto Django
 ```
 python -m venv venv
 .\venv\Script\Activate
@@ -24,7 +24,14 @@ git remote add origin url_do_projeto
 
 
 Migrando a base de dados do Django
-````
+```
 py manage.py makemigrations
 py manage.py migrate
+```
+
+
+Criando senhas de super usuário no Django
+```
+py manage.py createsuperuser
+py manage.py changepassword USERNAMEse
 ```
