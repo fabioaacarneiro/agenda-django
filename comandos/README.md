@@ -3,7 +3,9 @@ Iniciando o projeto Django
 ```
 python -m venv venv
 .\venv\Script\Activate
+pip install django
 django-admin startproject project .
+python manage.py startapp contact
 ```
 
 configurar o git
